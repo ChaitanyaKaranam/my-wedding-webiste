@@ -44,3 +44,16 @@ main {
         }
     }
 }
+
+@media (max-width: 800px) {
+    html {
+        font-size: 10px;
+    }
+    html,
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-image: url('/images/background/ethinic-sm.svg'),
+            url('/images/background/ethinic-sm-flip.svg');
+    }
+}
