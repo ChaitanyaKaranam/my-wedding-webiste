@@ -4,13 +4,17 @@
     min-height: 100vh;
     place-items: center;
     .hero-welcome {
+        justify-self: start;
         padding: 4rem;
+        text-align: center;
         span {
-            font-size: 1.4rem;
+            font-size: 3rem;
+            color: $primary-dark-color-2;
         }
         .hero-header {
             margin-top: 0.5rem;
-            font-size: 4.5rem;
+            color: $primary-dark-color-2;
+            font-size: 5rem;
         }
     }
 }
@@ -30,11 +34,13 @@
 
 @media (max-width: 1200px) {
     .hero-section {
+        margin-top: 3rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
         min-height: initial;
         .hero-welcome {
             padding: 1rem;
+            justify-self: center;
             .hero-header {
                 margin-bottom: 0.5rem;
             }

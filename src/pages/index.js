@@ -7,7 +7,7 @@ import WeddingHeader from '../components/WeddingHeader';
 import '../styles/index.scss';
 
 const IndexPage = () => {
-    const WELCOME_HEADER = "Krishna Chaitanya & Vedanshi's";
+    const WELCOME_HEADER = "Chaitanya & Vedanshi's";
     const HERO_HEADER = 'Beautiful Story';
 
     return (
