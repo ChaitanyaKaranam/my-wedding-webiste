@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+html,
+body {
+    font-family: 'Prata', serif;
+    background-color: $primary-color;
+    background-image: url('/images/background/ethinic.svg'),
+        url('/images/background/ethinic-flip.svg');
+    background-clip: content-box;
+    background-repeat: repeat-y;
+    background-position: left top, right top;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main {
+    background-color: $secondary-color;
+    padding: 1.2rem;
+    .main-section {
+        max-width: 1224px;
+        margin: 0 auto;
+    }
+}

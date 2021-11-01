@@ -1,0 +1,25 @@
+.wd-header {
+    position: relative;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 4rem;
+    &::before {
+        content: ' ';
+        background: url('/images/background/wd-arrow-left.svg') no-repeat right
+            center;
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+    }
+    &::after {
+        content: ' ';
+        background: url('/images/background/wd-arrow-right.svg') no-repeat left
+            center;
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+    }
+}

@@ -1,0 +1,29 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    place-items: center;
+    .hero-welcome {
+        padding: 4rem;
+        span {
+            font-size: 1.4rem;
+        }
+        .hero-header {
+            margin-top: 0.5rem;
+            font-size: 4.5rem;
+        }
+    }
+}
+
+.savethedate {
+    margin-top: 5rem;
+    min-height: 100vh;
+}
+
+.gallery-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}

@@ -1,0 +1,32 @@
+.wd-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: $primary-color;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    .wd-children {
+        padding: 2rem;
+        display: grid;
+        text-align: center;
+        row-gap: 5rem;
+        h3,
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.wd-event {
+    display: grid;
+    row-gap: 0.8rem;
+    h1,
+    h2 {
+        margin: 0;
+    }
+    h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
