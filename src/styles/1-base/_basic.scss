@@ -11,6 +11,7 @@ body {
     background-position: left top, right top;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-size: 16px;
 }
 
 main {
@@ -19,5 +20,27 @@ main {
     .main-section {
         max-width: 1224px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 14px;
+    }
+    main {
+        .main-section {
+            max-width: 1024px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+    main {
+        .main-section {
+            max-width: 800px;
+        }
     }
 }
