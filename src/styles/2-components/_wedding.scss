@@ -24,10 +24,21 @@
     }
     h3 {
         font-size: 1.8rem;
-        font-weight: normal;
+        font-weight: bold;
     }
     h2 {
         font-size: 3rem;
+    }
+    a {
+        color: $primary-dark-color-2;
+        text-decoration: none;
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+    span {
+        font-size: 1.2rem;
     }
 }
 

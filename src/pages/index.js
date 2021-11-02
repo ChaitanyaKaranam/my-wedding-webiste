@@ -32,17 +32,33 @@ const IndexPage = () => {
                     <WeddingBG>
                         <WeddingEvent
                             event='Engagement'
-                            date='23.Nov.2021'
+                            date={
+                                <a href='/calendar/engagement.ics' download>
+                                    23.Nov.2021
+                                </a>
+                            }
                             eventText='12:00 PM Onwards'
                         />
                         <WeddingEvent
                             event='Wedding'
-                            date='24.Nov.2021'
+                            date={
+                                <a href='/calendar/marraige.ics' download>
+                                    24.Nov.2021
+                                </a>
+                            }
                             eventText='9:23 AM'
                         />
                         <WeddingEvent
                             event='Venue'
-                            eventText={<p>Tivoli Palace, Faridabad, Haryana</p>}
+                            eventText={
+                                <a
+                                    href='https://goo.gl/maps/n36cV2bbXEZjUSQ47'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    Tivoli Palace, Faridabad, Haryana
+                                </a>
+                            }
                         />
                     </WeddingBG>
                 </section>
