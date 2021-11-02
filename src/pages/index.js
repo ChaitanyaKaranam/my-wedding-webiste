@@ -159,10 +159,18 @@ const IndexPage = () => {
                             src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/birthday2.jpg'
                             alt='Doosra birthday party wala pic'
                         />
-                        {/* <ImageCard
+                        <ImageCard
                             src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/roka3.jpg'
                             alt='Roka ka doosra pic'
-                        /> */}
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/house.jpg'
+                            alt='Roka ka doosra pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/zomato.jpg'
+                            alt='Concert ka pic'
+                        />
                     </article>
                 </section>
             </section>
