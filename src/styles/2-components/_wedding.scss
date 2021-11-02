@@ -1,7 +1,7 @@
 .wd-details {
     max-width: 800px;
     margin: 0 auto;
-    background-color: $primary-color;
+    background-color: $primary-light-color;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     .wd-children {
         padding: 2rem;
@@ -31,11 +31,6 @@
     }
     a {
         color: $primary-dark-color-2;
-        text-decoration: none;
-        &:hover,
-        &:active {
-            text-decoration: underline;
-        }
     }
     span {
         font-size: 1.2rem;
