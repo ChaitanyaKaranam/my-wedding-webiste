@@ -123,6 +123,46 @@ const IndexPage = () => {
                             src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/06.jpg'
                             alt='Probably the best pic of that day'
                         />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/himalaya.jpg'
+                            alt='Himalaya wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/outing.jpg'
+                            alt='Outing wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/birthday.jpg'
+                            alt='Birthday wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/party.jpg'
+                            alt='Party wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/jaidhalmer.jpg'
+                            alt='Jaidhalmer wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/mybirthday.jpg'
+                            alt='Birthday wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/movie.jpg'
+                            alt='Movie wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/firstparty.jpg'
+                            alt='First party wala pic'
+                        />
+                        <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/birthday2.jpg'
+                            alt='Doosra birthday party wala pic'
+                        />
+                        {/* <ImageCard
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/roka3.jpg'
+                            alt='Roka ka doosra pic'
+                        /> */}
                     </article>
                 </section>
             </section>
