@@ -19,12 +19,12 @@ DTSTAMP:20211102T170547Z
 UID:20211102T170547Z-1124122977@marudot.com
 DTSTART;VALUE=DATE:20211124
 DTEND;VALUE=DATE:20211125
-SUMMARY:Chaitanya & Vednahi's Marraige
-DESCRIPTION:Chaitanya & Vednahi's Marraige
+SUMMARY:Chaitanya & Vedanshi's Marraige
+DESCRIPTION:Chaitanya & Vedanshi's Marraige
 LOCATION:https://goo.gl/maps/n36cV2bbXEZjUSQ47
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Chaitanya & Vednahi's Marraige
+DESCRIPTION:Chaitanya & Vedanshi's Marraige
 TRIGGER:-P1W
 END:VALARM
 END:VEVENT

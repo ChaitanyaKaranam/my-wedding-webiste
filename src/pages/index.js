@@ -1,5 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 import ImageCard from '../components/ImageCard';
 import WeddingBG from '../components/WeddingBg';
 import WeddingEvent from '../components/WeddingDetails';
@@ -12,6 +13,39 @@ const IndexPage = () => {
 
     return (
         <main>
+            <Helmet>
+                <meta charset='utf-8' />
+                <title>💍 Our Beautiful Story 💍</title>
+                <meta
+                    name='description'
+                    content='💕💕 We are getting married on 24th November. We would love for you to be part of our beautiful story 💕💕'
+                />
+                <meta
+                    name='image'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                />
+                <meta itemprop='name' content='💍 Our Beautiful Story 💍' />
+                <meta
+                    itemprop='description'
+                    content='💕💕 We are getting married on 24th November. We would love for you to be part of our beautiful story 💕💕'
+                />
+                <meta
+                    itemprop='image'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                />
+                <meta name='og:title' content='💍 Our Beautiful Story 💍' />
+                <meta
+                    name='og:description'
+                    content='💕💕 We are getting married on 24th November. We would love for you to be part of our beautiful story 💕💕'
+                />
+                <meta
+                    name='og:image'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                />
+                <meta name='og:url' content='https://ourbeautifulstory.com/' />
+                <meta name='og:site_name' content='Our Beautiful Story' />
+                <meta name='og:type' content='website' />
+            </Helmet>
             <section className='main-section'>
                 <section className='hero-section'>
                     <div className='hero-welcome'>
@@ -66,32 +100,38 @@ const IndexPage = () => {
                     <WeddingHeader title='Gallery' />
                     <article className='gallery-content'>
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/01.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/01.jpg'
                             alt='Somewhere near necklace road'
                         />
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/02.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/02.jpg'
                             alt='Finally a decent pic with smoke bomb '
                         />
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/03.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/03.jpg'
                             alt='By the sunset'
                         />
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/04.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/04.jpg'
                             alt='Near Faluknama palace'
                         />
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/05.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/05.jpg'
                             alt='This one too'
                         />
                         <ImageCard
-                            src='https://res.cloudinary.com/kchai/image/upload/f_auto/mywedding/06.jpg'
+                            src='https://res.cloudinary.com/kchai/image/upload/w_800,f_auto,q_auto/mywedding/06.jpg'
                             alt='Probably the best pic of that day'
                         />
                     </article>
                 </section>
             </section>
+            <footer>
+                <span>
+                    Ourbeautifulstory©{new Date().getFullYear()}. All rights
+                    reserved
+                </span>
+            </footer>
         </main>
     );
 };
