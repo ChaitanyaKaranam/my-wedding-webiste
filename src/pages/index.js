@@ -65,6 +65,18 @@ const IndexPage = () => {
                     <WeddingHeader title='Save the Date' />
                     <WeddingBG>
                         <WeddingEvent
+                            event={`Haldi & Mehandi`}
+                            date={
+                                <a href='/calendar/haldi.ics' download>
+                                    22.Nov.2021
+                                </a>
+                            }
+                            eventText='11:00 AM Onwards'
+                        />
+                        <a href='/images/Haldi.jpeg' download>
+                            <img src='/images/Haldi.jpeg' alt='Haldi card' />
+                        </a>
+                        <WeddingEvent
                             event='Engagement'
                             date={
                                 <a href='/calendar/engagement.ics' download>
@@ -73,6 +85,12 @@ const IndexPage = () => {
                             }
                             eventText='12:00 PM Onwards'
                         />
+                        <a href='/images/Engagement_Card.jpg' download>
+                            <img
+                                src='/images/Engagement_Card.jpg'
+                                alt='Engagement Card'
+                            />
+                        </a>
                         <WeddingEvent
                             event='Wedding'
                             date={
@@ -80,8 +98,14 @@ const IndexPage = () => {
                                     24.Nov.2021
                                 </a>
                             }
-                            eventText='9:23 AM'
+                            eventText='Muhurat time:  9:23 AM'
                         />
+                        <a href='/images/Wedding_Card.png' download>
+                            <img
+                                src='/images/Wedding_Card.png'
+                                alt='Wedding Card'
+                            />
+                        </a>
                         <WeddingEvent
                             event='Venue'
                             eventText={
@@ -90,7 +114,7 @@ const IndexPage = () => {
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >
-                                    Tivoli Palace, Faridabad, Haryana
+                                    Tivoli Royal Palace, Faridabad, Haryana
                                 </a>
                             }
                         />
