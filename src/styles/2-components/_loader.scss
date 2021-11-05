@@ -1,0 +1,26 @@
+$base-color: #f4f4f4;
+$shine-color: rgba(229, 229, 229, 0.8);
+$avatar-offset: 52 + 16;
+
+.loader {
+    min-width: 22rem;
+    min-height: 22rem;
+    background-image: linear-gradient(
+        90deg,
+        $base-color 0px,
+        $shine-color 40px,
+        $base-color 80px
+    );
+    background-size: 600px;
+    animation: shine-avatar 2s infinite ease-out;
+}
+
+@keyframes shine-avatar {
+    0% {
+        background-position: -100px + $avatar-offset;
+    }
+    40%,
+    100% {
+        background-position: 140px + $avatar-offset;
+    }
+}
