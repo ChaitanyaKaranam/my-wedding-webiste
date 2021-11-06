@@ -19,10 +19,12 @@ const IndexPage = () => {
                 <title>💍 Our Beautiful Story 💍</title>
                 <meta
                     name='description'
+                    property='og:description'
                     content='💕💕 We are getting married on 24th November. We would love for you to be part of our beautiful story 💕💕'
                 />
                 <meta
                     name='image'
+                    property='og:image'
                     content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image-sm.png'
                 />
                 <meta itemprop='name' content='💍 Our Beautiful Story 💍' />
