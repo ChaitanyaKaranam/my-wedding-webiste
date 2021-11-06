@@ -23,7 +23,7 @@ const IndexPage = () => {
                 />
                 <meta
                     name='image'
-                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image-sm.png'
                 />
                 <meta itemprop='name' content='💍 Our Beautiful Story 💍' />
                 <meta
@@ -32,7 +32,7 @@ const IndexPage = () => {
                 />
                 <meta
                     itemprop='image'
-                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image-sm.png'
                 />
                 <meta name='og:title' content='💍 Our Beautiful Story 💍' />
                 <meta
@@ -41,7 +41,7 @@ const IndexPage = () => {
                 />
                 <meta
                     name='og:image'
-                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image.png'
+                    content='https://res.cloudinary.com/kchai/image/upload/v1635879961/mywedding/og-image-sm.png'
                 />
                 <meta name='og:url' content='https://ourbeautifulstory.com/' />
                 <meta name='og:site_name' content='Our Beautiful Story' />
